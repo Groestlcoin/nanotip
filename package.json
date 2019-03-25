@@ -28,7 +28,7 @@
     "cookie-parser": "^1.4.3",
     "csurf": "^1.9.0",
     "express": "^4.16.3",
-    "groestlcoin-lightning-charge-client": "https://github.com/Groestlcoin/groestlcoin-lightning-charge.git",
+    "lightning-charge-client": "^0.1.7",
     "meow": "^4.0.0",
     "morgan": "^1.9.0",
     "pug": "^2.0.3"
