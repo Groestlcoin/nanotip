@@ -1,5 +1,5 @@
 {
-  "name": "nanotip",
+  "name": "groestlcoin-nanotip",
   "version": "0.1.1",
   "description": "Lightning Tip Box",
   "bin": {
@@ -9,9 +9,9 @@
   "scripts": {
     "start": "./nanotipd"
   },
-  "repository": "https://github.com/ElementsProject/nanotip.git",
+  "repository": "https://github.com/groestlcoin/nanotip.git",
   "keywords": [
-    "bitcoin",
+    "groestlcoin",
     "lightning",
     "lightning-charge",
     "tip",
@@ -28,7 +28,7 @@
     "cookie-parser": "^1.4.3",
     "csurf": "^1.9.0",
     "express": "^4.16.3",
-    "lightning-charge-client": "^0.1.7",
+    "groestlcoin-lightning-charge-client": "https://github.com/Groestlcoin/groestlcoin-lightning-charge.git",
     "meow": "^4.0.0",
     "morgan": "^1.9.0",
     "pug": "^2.0.3"

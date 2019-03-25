@@ -1,12 +1,12 @@
 // Initialize Lightning Charge client
-const charge = require('lightning-charge-client')(process.env.CHARGE_URL, process.env.CHARGE_TOKEN)
+const charge = require('groestlcoin-lightning-charge-client')(process.env.CHARGE_URL, process.env.CHARGE_TOKEN)
 
 // Express setup & settings
 const app = require('express')()
 app.set('port', process.env.PORT || 9115)
 app.set('host', process.env.HOST || 'localhost')
 app.set('url', process.env.URL || `http://${app.settings.host}:${app.settings.port}`)
-app.set('title', process.env.TITLE || 'Lightning Tip Box')
+app.set('title', process.env.TITLE || 'Groestlcoin Lightning Tip Box')
 app.set('trust proxy', process.env.PROXIED || 'loopback')
 
 app.use(require('cookie-parser')())
